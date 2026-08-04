@@ -1,0 +1,15 @@
+node_modules
+dist
+.DS_Store
+result
+.direnv
+*.local
+
+# Local infrastructure / deployment — kept off the public repo
+Dockerfile
+docker-compose.yml
+nginx.conf
+security-headers.conf
+.dockerignore
+flake.nix
+flake.lock
